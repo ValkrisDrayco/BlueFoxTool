@@ -44,6 +44,12 @@ bluefox
 | 13 | Image to ASCII | Image → art ASCII |
 | 14 | Youtube DL | Téléchargement vidéo/audio |
 
+## Support
+
+Rejoins le serveur Discord BlueFox : https://discord.gg/BkrwVbBWYX
+
+[![Discord](https://img.shields.io/badge/Discord-Rejoindre-5865F2?logo=discord&logoColor=white)](https://discord.gg/BkrwVbBWYX)
+
 ## Disclaimer
 
 Usage éducatif et personnel uniquement. N'utilisez ces outils que sur des cibles autorisées.
