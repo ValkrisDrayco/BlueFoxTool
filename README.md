@@ -7,7 +7,7 @@ Menu interactif pour Termux — outils OSINT, Discord, et utilitaires.
 \`\`\`bash
 pkg install curl python jq imagemagick chafa -y
 pip install requests phonenumbers yt-dlp
-git clone https://github.com/TON_USER/BlueFoxTool.git
+git clone https://github.com/ValkrisDrayco/BlueFoxTool.git
 cd BlueFoxTool
 chmod +x bluefox.sh modules/*.sh
 \`\`\`
