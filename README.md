@@ -1,4 +1,4 @@
-kk# BlueFoxTool
+# BlueFoxTool
 
 **BlueFoxTool** est un toolkit Termux avec 15 modules OSINT, Discord, cybersécurité et utilitaires. Créé par ValkrisDrayco (Dr.Stone).
 
