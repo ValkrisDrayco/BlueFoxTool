@@ -1,0 +1,21 @@
+# secrets
+*.log
+*.save
+.env
+config.py
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# os
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.swp

@@ -1,4 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
+# language: Bash, file: bluefox.sh, target: Termux
+# menu BlueFox — design CyberTech, 15 modules
+
 R='\033[1;31m'
 N='\033[0m'
 
@@ -8,8 +11,8 @@ banner() {
     cat << 'EOF'
   ██████╗ ██╗     ██╗   ██╗███████╗███████╗ ██████╗ ██╗  ██╗
   ██╔══██╗██║     ██║   ██║██╔════╝██╔════╝██╔═══██╗╚██╗██╔╝
-  ██████╔╝██║     ██║   ██║█████╗  █████╗  ██║   ██║ ╚███╔╝ 
-  ██╔══██╗██║     ██║   ██║██╔══╝  ██╔══╝  ██║   ██║ ██╔██╗ 
+  ██████╔╝██║     ██║   ██║█████╗  █████╗  ██║   ██║ ╚███╔╝
+  ██╔══██╗██║     ██║   ██║██╔══╝  ██╔══╝  ██║   ██║ ██╔██╗
   ██████╔╝███████╗╚██████╔╝███████╗██║     ╚██████╔╝██╔╝ ██╗
   ╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝╚═╝      ╚═════╝ ╚═╝  ╚═╝
 EOF
@@ -29,6 +32,7 @@ menu() {
     echo -e "${R}│${N}  [05] > Token Grabber      [12] > Text to Image                        ${R}│${N}"
     echo -e "${R}│${N}  [06] > Roblox ID          [13] > Image to ASCII                       ${R}│${N}"
     echo -e "${R}│${N}  [07] > Phone Lookup       [14] > Youtube DL                           ${R}│${N}"
+    echo -e "${R}│${N}  [15] > BluePhisher                                                    ${R}│${N}"
     echo -e "${R}│${N}                                                                         ${R}│${N}"
     echo -e "${R}└─────────────────────────────────────────────────────────────────────────┘${N}"
     echo ""
@@ -64,6 +68,7 @@ while true; do
         12)     run_mod "12_text_to_image.sh" ;;
         13)     run_mod "13_image_to_ascii.sh" ;;
         14)     run_mod "14_youtube_dl.sh" ;;
+        15)     run_mod "bluephisher.sh" ;;
         0|q|exit) echo -e "${R} bye.${N}"; exit 0 ;;
         *)      echo -e "${R}[!] Choix invalide${N}"; sleep 1 ;;
     esac
