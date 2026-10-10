@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # language: Bash, file: bluefox.sh, target: Termux
-# menu BlueFox — design CyberTech, 15 modules
+# menu BlueFox — 14 modules (05 retiré)
 
 R='\033[1;31m'
 N='\033[0m'
@@ -29,10 +29,9 @@ menu() {
     echo -e "${R}│${N}  [02] > Webhook Spam       [09] > Webhook Info                         ${R}│${N}"
     echo -e "${R}│${N}  [03] > Token Info         [10] > Token Raid                           ${R}│${N}"
     echo -e "${R}│${N}  [04] > Nitro Generator    [11] > Obfuscator                           ${R}│${N}"
-    echo -e "${R}│${N}  [05] > Token Grabber      [12] > Text to Image                        ${R}│${N}"
-    echo -e "${R}│${N}  [06] > Roblox ID          [13] > Image to ASCII                       ${R}│${N}"
-    echo -e "${R}│${N}  [07] > Phone Lookup       [14] > Youtube DL                           ${R}│${N}"
-    echo -e "${R}│${N}  [15] > BluePhisher                                                    ${R}│${N}"
+    echo -e "${R}│${N}  [06] > Roblox ID          [12] > Text to Image                        ${R}│${N}"
+    echo -e "${R}│${N}  [07] > Phone Lookup       [13] > Image to ASCII                       ${R}│${N}"
+    echo -e "${R}│${N}  [14] > Youtube DL         [15] > BluePhisher                          ${R}│${N}"
     echo -e "${R}│${N}                                                                         ${R}│${N}"
     echo -e "${R}└─────────────────────────────────────────────────────────────────────────┘${N}"
     echo ""
@@ -58,7 +57,6 @@ while true; do
         2|02)   run_mod "02_webhook_spam.sh" ;;
         3|03)   run_mod "03_token_info.sh" ;;
         4|04)   run_mod "04_nitro_gen.sh" ;;
-        5|05)   run_mod "05_token_grabber.sh" ;;
         6|06)   run_mod "06_roblox_id.sh" ;;
         7|07)   run_mod "07_phone_lookup.sh" ;;
         8|08)   run_mod "08_site_scanner.sh" ;;
