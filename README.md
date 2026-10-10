@@ -39,6 +39,7 @@ bluefox
 | 2 | Webhook Spam | Envoi en boucle sur un webhook Discord |
 | 3 | Token Info | Infos d'un token Discord |
 | 4 | Nitro Generator | Génère des codes Nitro (format valide, non fonctionnels) |
+| 5 | Token Checker | Vérifie une liste de tokens Discord |
 | 6 | Roblox ID | Infos d'un compte Roblox |
 | 7 | Phone Lookup | Infos d'un numéro de téléphone |
 | 8 | Site Scanner | Headers + techno + ports |
